@@ -6,6 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import Computer from './Computer';
 import Crud from './Crud';
 import Hook from './Hook';
+import Vd from './Vd';
+import Effect from './Effect';
+import Time from './Time';
+import StudentManage from './StudentManage';
 
 // const name = "fuck you";
 
@@ -18,7 +22,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   // <h1 style={mystyle}>{name}</h1>
-  <Computer/>
+  <StudentManage/>
   );
 
   // If you want to start measuring performance in your app, pass a function

@@ -1,4 +1,3 @@
-import ReactPaginate from 'react-js-pagination';
 import React, { Component } from 'react';
 
 class Crud extends Component {
