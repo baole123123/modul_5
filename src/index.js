@@ -10,6 +10,9 @@ import Vd from './Vd';
 import Effect from './Effect';
 import Time from './Time';
 import StudentManage from './StudentManage';
+import Form from './Form';
+import BookManage from './BookManage';
+import DemoFormik from './Form';
 
 // const name = "fuck you";
 
@@ -22,7 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   // <h1 style={mystyle}>{name}</h1>
-  <StudentManage/>
+  <BookManage/>
   );
 
   // If you want to start measuring performance in your app, pass a function
